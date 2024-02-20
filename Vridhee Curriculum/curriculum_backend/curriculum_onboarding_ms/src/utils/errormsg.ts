@@ -1,0 +1,15 @@
+export const idNotExistsErrMsg = "Id does not exists"
+export const done = "Success"
+export const usrNotExistsErrMsg = "User does not exists";
+export const invalidUserErrMsg = "Invalid User name or Password"
+export const inactiveUsrMsg = "Your account is deactivated, please contact your admin"
+export const sendOtpMsg = "OTP Sent to registered Mobile number"
+export const noUserErrMsg = "User does not exist"
+export const samePwdMsg = "New Password and old password should not be same.";
+export const PASSWORD_ALREADY_UPDATED = "Reset Password link is expired. Please generate a new link."
+export const resetPwdMsg = "Password successfully changed";
+export const otptimeexpired = "OTP expired please try again."
+export const invalidOtpErrMsg = "You have entered invalid OTP";
+export const noDataAvail = "No data Available"
+export const noDataAvailUpdate = "No Data Available to Update"
+export const noDataAvailDelete = "No Data Available to Delete"

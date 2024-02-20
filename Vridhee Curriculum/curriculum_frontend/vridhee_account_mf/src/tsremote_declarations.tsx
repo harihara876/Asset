@@ -1,0 +1,9 @@
+declare module "vridhee_common_component_mf/AppInput";
+declare module "vridhee_common_component_mf/AppButton";
+declare module "vridhee_common_component_mf/Checbox";
+declare module "vridhee_common_component_mf/Header";
+declare module "vridhee_common_component_mf/Dropdown";
+declare module "vridhee_common_component_mf/configJson"
+declare module "vridhee_common_component_mf/Splash";
+declare module "react-loader-spinner";
+declare module "@mui/material/Typography";

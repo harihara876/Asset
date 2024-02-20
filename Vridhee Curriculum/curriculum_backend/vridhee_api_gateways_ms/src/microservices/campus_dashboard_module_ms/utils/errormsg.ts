@@ -1,0 +1,15 @@
+export const done = "Success"
+export const CONTENT_TYPE_ERROR = "Invalid content type/Unsuported media "
+export const userIdMsg = "User id is required";
+export const userId_Invalid = "Invalid User name";
+export const pwdErrMsg = "Password is required";
+export const ref = "Reference id is required."
+export const otpErrMsg = "Please Enter OTP"
+export const INVAILD_INPUT = "Invalid Input"
+export const TOKEN = "token is required"
+export const PASSWORD_VAILD_MSG = "Password should have minimum of 6 and maximum of 10 character with combination of uppercase,lowercase,digits,and special symbols"
+export const confpwd = "Confirm Password is required";
+export const mismat = " Password is Mismatched";
+export const TOKEN_EXP = "Reset token expired"
+export const INVALID_TOKEN = "Invalid token"
+export const RESET_EMAIL_MSG = "Reset Password OTP has been sent to your email "

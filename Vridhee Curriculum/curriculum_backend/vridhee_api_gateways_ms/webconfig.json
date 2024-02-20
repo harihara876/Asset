@@ -1,0 +1,150 @@
+{
+    "env": "local",
+    "local": {
+        "DBURLOLD": "mongodb+srv://mongodbuser:TjXX2VBjvDAmc5bl@cluster1.zb6kxk1.mongodb.net/vridhee",
+        "DBURL": "mongodb://mongodbuser:TjXX2VBjvDAmc5bl@db.vridhee.com:27017",
+        "defdb": "vridhee",
+        "apiGatewayUrl": "http://localhost:3010/",
+        "commonAPIURL": "http://localhost:4020/",
+        "onboardingUrl": "http://localhost:4030/",
+        "authorizationUrl": "http://localhost:4030/",
+        "accountUrl": "http://localhost:4010/",
+        "curriculumDashboardModuleMS": "http://localhost:4040/",
+        "onboardingMFUrl": "http://localhost:5030/",
+        "accountMFUrl": "http://localhost:5020/",
+        "curriculumDashboardMFUrl": "http://localhost:5040/",
+        "s3BaseUrl": "https://v3c.s3.ap-south-1.amazonaws.com",
+        "logger_options": {
+            "frequency": "1h",
+            "datePattern": "YYYY-MM-DD-HH",
+            "maxSize": "20m",
+            "maxFiles": "14d",
+            "dirname": "logs",
+            "level": "info"
+        },
+        "JWT_SECRET": "BloodBank@123",
+        "REFRESH_JWT_SECRET": "BloodBank@12345",
+        "RESET_PWD_SECRET": "BloodBank@123456",
+        "TOKEN_EXP": "600m",
+        "REF_TOKEN_EXP": "30d",
+        "RESET_PWD_EXP": 60,
+        "otpExpmin": 5,
+        "isPwdEnc": true,
+        "isdefaultotp": false,
+        "email": {
+            "fromEmailId": "noreply@vridhee.com",
+            "host": "email-smtp.ap-south-1.amazonaws.com",
+            "SMTPUserName": "AKIAZZF4O5IVBTPZSS57",
+            "SMTPPassword": "BK7pexNJKSOUVJGEpS3xCdMQ4I79mIpSR5+DylvMHb0H"
+        },
+        "ismail": true,
+        "issmpp": true,
+        "issmtp": true,
+        "issendsms": true,
+        "issendemail": true,
+        "s3Bucket": {
+            "accessKeyId": "AKIAZZF4O5IVG3DCNL5U",
+            "secretAccessKey": "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",
+            "region": "ap-south-1",
+            "bucket": "v3c"
+        },
+        "googleOAuthCredentials": {
+            "clientId": "1039047937438-6ohul30m7g5fgp0d6uq0e07io6kh3hln.apps.googleusercontent.com",
+            "clientSecret": "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",
+            "callbackUrl": "http://localhost:3010/api/account/oauth/google/callback",
+            "syncGmailContactsCallbackUrl": "http://localhost:3010/api/onboarding/syncGmailContacts/callback"
+        }
+    },
+    "server": {
+        "DBURLOLD": "mongodb+srv://mongodbuser:TjXX2VBjvDAmc5bl@cluster1.zb6kxk1.mongodb.net/vridhee",
+        "DBURL": "mongodb://mongodbuser:TjXX2VBjvDAmc5bl@db.vridhee.com:27017",
+        "defdb": "vridhee",
+        "apiGatewayUrl": "http://demoapi.vridhee.com:3010/",
+        "commonAPIURL": "http://demoapi.vridhee.com:4020/",
+        "onboardingUrl": "http://demoapi.vridhee.com:4030/",
+        "accountUrl": "http://demoapi.vridhee.com:4010/",
+        "curriculumDashboardModuleMS": "http://demoapi.vridhee.com:4040/",
+        "onboardingMFUrl": "https://v3cdemo.vridhee.com:5030/",
+        "accountMFUrl": "https://v3cdemo.vridhee.com/",
+        "curriculumDashboardMFUrl": "https://v3cdemo.vridhee.com:5040/",
+        "s3BaseUrl": "https://v3c.s3.ap-south-1.amazonaws.com",
+        "logger_options": {
+            "frequency": "1h",
+            "datePattern": "YYYY-MM-DD-HH",
+            "maxSize": "20m",
+            "maxFiles": "14d",
+            "dirname": "logs",
+            "level": "info"
+        },
+        "JWT_SECRET": "BloodBank@123",
+        "REFRESH_JWT_SECRET": "BloodBank@12345",
+        "RESET_PWD_SECRET": "BloodBank@123456",
+        "TOKEN_EXP": "600m",
+        "REF_TOKEN_EXP": "30d",
+        "RESET_PWD_EXP": 60,
+        "otpExpmin": 5,
+        "isPwdEnc": true,
+        "isdefaultotp": false,
+        "email": {
+            "fromEmailId": "noreply@vridhee.com",
+            "host": "email-smtp.ap-south-1.amazonaws.com",
+            "SMTPUserName": "AKIAZZF4O5IVBTPZSS57",
+            "SMTPPassword": "BK7pexNJKSOUVJGEpS3xCdMQ4I79mIpSR5+DylvMHb0H"
+        },
+        "ismail": true,
+        "issmpp": true,
+        "issmtp": true,
+        "issendsms": true,
+        "issendemail": true,
+        "s3Bucket": {
+            "accessKeyId": "AKIAZZF4O5IVG3DCNL5U",
+            "secretAccessKey": "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",
+            "region": "ap-south-1",
+            "bucket": "v3c"
+        },
+        "googleOAuthCredentials": {
+            "clientId": "1039047937438-6ohul30m7g5fgp0d6uq0e07io6kh3hln.apps.googleusercontent.com",
+            "clientSecret": "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",
+            "callbackUrl": "https://v3cdemo.vridhee.com/webapigateway/api/account/oauth/google/callback",
+            "syncGmailContactsCallbackUrl": "https://v3cdemo.vridhee.com/webapigateway/api/onboarding/syncGmailContacts/callback"
+        }
+    },
+    "campus_local": {
+        "DBURL": "mongodb://mongodbuser:TjXX2VBjvDAmc5bl@db.vridhee.com:27017",
+        "defdb": "vridhee-campus",
+        "db_2": "vridhee",
+        "apiGatewayUrl": "http://localhost:3010/",
+        "commonAPIURL": "http://localhost:4020/",
+        "campusOnBoardingMsUrl": "http://localhost:4090/",
+        "campusDashBoardMsUrl": "http://localhost:4110/",
+        "adminVridheeMsUrl": "http://localhost:4120/",
+        "adminSecretKey": "Na0QvNPGJC%$*56fgfgv",
+        "JWT_SECRET": "BloodBank@123",
+        "s3BaseUrl": "https://v3c.s3.ap-south-1.amazonaws.com/",
+        "s3Bucket": {
+            "accessKeyId": "AKIAZZF4O5IVG3DCNL5U",
+            "secretAccessKey": "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",
+            "region": "ap-south-1",
+            "bucket": "v3c"
+        }
+    },
+    "campus_server": {
+        "DBURL": "mongodb://mongodbuser:TjXX2VBjvDAmc5bl@db.vridhee.com:27017",
+        "defdb": "vridhee-campus",
+        "db_2": "vridhee",
+        "apiGatewayUrl": "http://demoapi.vridhee.com:3010/",
+        "commonAPIURL": "http://demoapi.vridhee.com:4020/",
+        "campusOnBoardingMsUrl": "http://demoapi.vridhee.com:4090/",
+        "campusDashBoardMsUrl": "http://demoapi.vridhee.com:4110/",
+        "adminVridheeMsUrl": "http://demoapi.vridhee.com:4120/",
+        "adminSecretKey": "Na0QvNPGJC%$*56fgfgv",
+        "JWT_SECRET": "BloodBank@123",
+        "s3BaseUrl": "https://v3c.s3.ap-south-1.amazonaws.com/",
+        "s3Bucket": {
+            "accessKeyId": "AKIAZZF4O5IVG3DCNL5U",
+            "secretAccessKey": "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",
+            "region": "ap-south-1",
+            "bucket": "v3c"
+        }
+    }
+}

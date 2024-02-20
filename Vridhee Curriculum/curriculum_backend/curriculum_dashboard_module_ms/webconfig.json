@@ -1,0 +1,163 @@
+{
+    "env": "local",
+    "local": {
+        "DBURL": "mongodb+srv://mongodbuser:TjXX2VBjvDAmc5bl@cluster1.zb6kxk1.mongodb.net/vridhee",
+        "defdb": "vridhee",
+        "apiGatewayUrl": "http://localhost:3010/",
+        "configurationUrl": "http://localhost:4020/",
+        "onboardingUrl": "http://localhost:4030/",
+        "authorizationUrl": "http://localhost:4030/",
+        "accountUrl": "http://localhost:4010/",
+        "onboardingMFUrl": "http://localhost:5030/",
+        "accountMFUrl": "http://localhost:5020/",
+        "s3BaseUrl": "https://v3c.s3.ap-south-1.amazonaws.com",
+        "logger_options": {
+            "frequency": "1h",
+            "datePattern": "YYYY-MM-DD-HH",
+            "maxSize": "20m",
+            "maxFiles": "14d",
+            "dirname": "logs",
+            "level": "info"
+        },
+        "REDIS_HOST": "redis.jiohealth-iomt.svc.cluster.local",
+        "REDIS_PORT": "6379",
+        "JWT_SECRET": "BloodBank@123",
+        "REFRESH_JWT_SECRET": "BloodBank@12345",
+        "RESET_PWD_SECRET": "Jiohealthiomt@123",
+        "TOKEN_EXP": "600m",
+        "REF_TOKEN_EXP": "30d",
+        "RESET_PWD_EXP": 60,
+        "otpExpmin": 5,
+        "isPwdEnc": true,
+        "isdefaultotp": false,
+        "sms": {
+            "smpp_host": "",
+            "smpp_port": 2755,
+            "smpp_system_id": "AIMUMIOTMT01",
+            "smpp_password": "123"
+        },
+        "email": {
+            "fromEmailId": "noreply@vridhee.com",
+            "host": "email-smtp.ap-south-1.amazonaws.com",
+            "SMTPUserName": "AKIAZZF4O5IVBTPZSS57",
+            "SMTPPassword": "BK7pexNJKSOUVJGEpS3xCdMQ4I79mIpSR5+DylvMHb0H"
+        },
+        "ismail": true,
+        "issmpp": true,
+        "issmtp": true,
+        "issendsms": true,
+        "issendemail": true,
+        "s3Bucket": {
+            "accessKeyId": "AKIAZZF4O5IVG3DCNL5U",
+            "secretAccessKey": "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",
+            "region": "ap-south-1",
+            "bucket": "v3c"
+        },
+        "googleOAuthCredentials": {
+            "clientId": "1039047937438-6ohul30m7g5fgp0d6uq0e07io6kh3hln.apps.googleusercontent.com",
+            "clientSecret": "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",
+            "callbackUrl": "http://localhost:3010/api/account/oauth/google/callback"
+        }
+    },
+    "server": {
+        "DBURL": "mongodb+srv://mongodbuser:TjXX2VBjvDAmc5bl@cluster1.zb6kxk1.mongodb.net/vridhee",
+        "defdb": "vridhee",
+        "apiGatewayUrl": "http://43.204.93.33:3010/",
+        "configurationUrl": "http://43.204.93.33:4020/",
+        "onboardingUrl": "http://43.204.93.33:4030/",
+        "authorizationUrl": "http://43.204.93.33:4030/",
+        "accountUrl": "http://43.204.93.33:4010/",
+        "onboardingMFUrl": "http://43.204.93.33:5030/",
+        "accountMFUrl": "http://43.204.93.33:5020/",
+        "s3BaseUrl": "https://v3c.s3.ap-south-1.amazonaws.com",
+        "logger_options": {
+            "frequency": "1h",
+            "datePattern": "YYYY-MM-DD-HH",
+            "maxSize": "20m",
+            "maxFiles": "14d",
+            "dirname": "logs",
+            "level": "info"
+        },
+        "REDIS_HOST": "redis.jiohealth-iomt.svc.cluster.local",
+        "REDIS_PORT": "6379",
+        "JWT_SECRET": "BloodBank@123",
+        "REFRESH_JWT_SECRET": "BloodBank@12345",
+        "RESET_PWD_SECRET": "Jiohealthiomt@123",
+        "TOKEN_EXP": "600m",
+        "REF_TOKEN_EXP": "30d",
+        "RESET_PWD_EXP": 60,
+        "otpExpmin": 5,
+        "isPwdEnc": true,
+        "isdefaultotp": false,
+        "sms": {
+            "smpp_host": "",
+            "smpp_port": 2755,
+            "smpp_system_id": "AIMUMIOTMT01",
+            "smpp_password": "123"
+        },
+        "email": {
+            "fromEmailId": "noreply@vridhee.com",
+            "host": "email-smtp.ap-south-1.amazonaws.com",
+            "SMTPUserName": "AKIAZZF4O5IVBTPZSS57",
+            "SMTPPassword": "BK7pexNJKSOUVJGEpS3xCdMQ4I79mIpSR5+DylvMHb0H"
+        },
+        "ismail": true,
+        "issmpp": true,
+        "issmtp": true,
+        "issendsms": true,
+        "issendemail": true,
+        "s3Bucket": {
+            "accessKeyId": "AKIAZZF4O5IVG3DCNL5U",
+            "secretAccessKey": "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",
+            "region": "ap-south-1",
+            "bucket": "v3c"
+        },
+        "googleOAuthCredentials": {
+            "clientId": "1039047937438-6ohul30m7g5fgp0d6uq0e07io6kh3hln.apps.googleusercontent.com",
+            "clientSecret": "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",
+            "callbackUrl": "http://43.204.93.33:3010/api/account/oauth/google/callback"
+        }
+    },
+    "campus_local": {
+        "DBURL": "mongodb+srv://mongodbuser:TjXX2VBjvDAmc5bl@cluster1.zb6kxk1.mongodb.net/vridhee_campus",
+        "defdb": "vridhee-campus",
+        "apiGatewayUrl": "http://localhost:3010/",
+        "campusOnBoardingMsUrl": "http://localhost:4090/",
+        "logger_options": {
+            "frequency": "1h",
+            "datePattern": "YYYY-MM-DD-HH",
+            "maxSize": "20m",
+            "maxFiles": "14d",
+            "dirname": "logs",
+            "level": "info"
+        },
+        "REDIS_HOST": "redis.jiohealth-iomt.svc.cluster.local",
+        "REDIS_PORT": "6379",
+        "JWT_SECRET": "BloodBank@123",
+        "REFRESH_JWT_SECRET": "BloodBank@12345",
+        "RESET_PWD_SECRET": "Jiohealthiomt@123",
+        "TOKEN_EXP": "600m",
+        "REF_TOKEN_EXP": "30d",
+        "RESET_PWD_EXP": 60,
+        "otpExpmin": 5,
+        "isPwdEnc": true,
+        "isdefaultotp": false,
+        "sms": {
+            "smpp_host": "",
+            "smpp_port": 2755,
+            "smpp_system_id": "AIMUMIOTMT01",
+            "smpp_password": "123"
+        },
+        "email": {
+            "fromEmailId": "noreply@vridhee.com",
+            "host": "email-smtp.ap-south-1.amazonaws.com",
+            "SMTPUserName": "AKIAZZF4O5IVBTPZSS57",
+            "SMTPPassword": "BK7pexNJKSOUVJGEpS3xCdMQ4I79mIpSR5+DylvMHb0H"
+        },
+        "ismail": true,
+        "issmpp": true,
+        "issmtp": true,
+        "issendsms": true,
+        "issendemail": true
+    }
+}

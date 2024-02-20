@@ -1,0 +1,10 @@
+export const CHAP_NAME_MSG = "Chapter Name is required"
+export const DB_METADATA = "Activity / db_metadata is required"
+export const USER_ID = "User id is required"
+export const INVALID_USER_ID = "Invalid user id"
+export const CAT_ID = "Category id is required"
+export const GRADE_ID = "Grade id is required"
+export const SUB_ID = "Subject id is required"
+export const noMentors = "No Mentors Available";
+export const COLLABARATION_STATUS = "Collabaration status is required";
+export const COLLABARATION_ID = "Collabaration id is required"

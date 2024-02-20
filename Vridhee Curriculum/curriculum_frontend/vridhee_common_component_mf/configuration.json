@@ -1,0 +1,17 @@
+{
+    "env": "local",
+    "local": {
+        "URL": "http://localhost",
+        "commonMFUrl": "http://localhost:5010/",
+        "accountMFUrl": "http://localhost:5020/",
+        "onboardingMFUrl": "http://localhost:5030/",
+        "curriculumDashboardMFUrl": "http://localhost:5040/"
+    },
+    "server": {
+        "URL": "https://v3cdemo.vridhee.com",
+        "commonMFUrl": "https://v3cdemo.vridhee.com:5010/",
+        "accountMFUrl": "https://v3cdemo.vridhee.com:5020/",
+        "onboardingMFUrl": "https://v3cdemo.vridhee.com:5030/",
+        "curriculumDashboardMFUrl": "https://v3cdemo.vridhee.com:5040/"
+    }
+}

@@ -1,0 +1,1 @@
+declare module "vridhee_account_mf/Join_Us";

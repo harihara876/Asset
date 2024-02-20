@@ -1,0 +1,22 @@
+{
+    "DBURL": "mongodb://mongodbuser:TjXX2VBjvDAmc5bl@db.vridhee.com:27017",
+    "vridhee": {
+        "defdb": "vridhee"
+    },
+    "vridheeCurriculumEnglish": {
+        "defdb": "vridhee-cur_english"
+    },
+    "vridheeCurriculumHindi": {
+        "defdb": "vridhee-cur_hindi"
+    },
+    "vridheeAnalytics": {
+        "defdb": "vridhee-analytics"
+    },
+    "s3BaseUrl": "https://v3c.s3.ap-south-1.amazonaws.com",
+    "s3Bucket": {
+        "accessKeyId": "AKIAZZF4O5IVG3DCNL5U",
+        "secretAccessKey": "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",
+        "region": "ap-south-1",
+        "bucket": "v3c"
+    }
+}

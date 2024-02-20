@@ -1,0 +1,1 @@
+export const CHAP_NAME_MSG = "Chapter Name is required"
